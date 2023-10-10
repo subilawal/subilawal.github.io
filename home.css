@@ -41,6 +41,7 @@ h2 {
 
 a img:hover {
     transform: scale(1.5);
+    opacity: 80%;
 }
 
 a img{
@@ -48,6 +49,7 @@ a img{
     height: 50px;
     width: 50px;
     margin-right: 25px;
+    opacity: 40%;
 }
 
 #list {
