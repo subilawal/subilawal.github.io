@@ -114,7 +114,8 @@ a img{
         transition: transform .2s;
         height: 80px;
         width: 80px;
-        margin-right: 35px;
+        margin-left: 17.5px;
+        margin-right: 17.5px;
     }
     
 }
