@@ -1,5 +1,3 @@
-import resume from '../assets/OLASUBOMI_LAWAL__RESUME.pdf';
-
 const Contact = () => {
     return (
         <section id="contact" className="content-section">
@@ -26,9 +24,7 @@ const Contact = () => {
                     </svg>
                     GitHub
                 </a>
-                <a href={resume} className="button secondary" target="_blank" rel="noreferrer" download>
-                    Resume
-                </a>
+                
             </div>
         </section>
     )

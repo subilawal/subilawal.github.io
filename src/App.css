@@ -12,8 +12,21 @@
 }
 
 .hero-image {
-  max-width: 20%;
+  max-width: 30%;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-image {
+    max-width: 50%;
+  }
+}
+
+
 
 .hero-section,
 .content-section {

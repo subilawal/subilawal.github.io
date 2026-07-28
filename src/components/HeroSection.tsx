@@ -1,3 +1,5 @@
+import resume from '../assets/OLASUBOMI_LAWAL__RESUME.pdf';
+
 const HeroSection = () => {
     return (
         <section className="hero-section">
@@ -9,6 +11,9 @@ const HeroSection = () => {
             <div className="hero-actions">
                 <a href="#projects" className="button primary">
                     View Projects
+                </a>
+                <a href={resume} className="button secondary" target="_blank" rel="noreferrer" download>
+                    Resume
                 </a>
                 <a href="#contact" className="button secondary">
                     Contact Me
